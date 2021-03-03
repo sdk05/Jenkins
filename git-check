@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-               git 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
+               #git 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
             }
         }
     }
