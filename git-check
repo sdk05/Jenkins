@@ -6,11 +6,11 @@ pipeline {
             steps {
                git 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
             }
-        }
+        }   
+    }
     post { 
         always { 
             cleanWs()
         }
-    }
     }
 }
