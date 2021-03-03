@@ -2,10 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('pull code') {
             steps {
-               #git 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
+               git 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
             }
         }
+    post { 
+        always { 
+            cleanWs()
+        }
+    }
     }
 }
