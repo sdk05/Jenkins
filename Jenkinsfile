@@ -4,7 +4,7 @@ pipeline {
         // stage('Clone sources') {
         //     steps {
                 
-        //         git url: 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
+        //        git url: 'https://github.com/kloud9nyc/pyspark-unit-testing.git/'
 
         //     }
         // }
