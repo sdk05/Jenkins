@@ -59,6 +59,7 @@ pipeline {
                 echo $WORKSPACE
                 cp ${WORKSPACE}/src/a.txt /Users/DK/text/
                 ls -lh /Users/DK/text
+                ls
                 """
 
             }
