@@ -83,11 +83,15 @@ pipeline {
                 """
             }
         }
-post { 
-        always { 
-            cleanWs()
-        } 
+        stage('delete workspace')
+        {
+        post { 
+            always { 
+                cleanWs()
+                    } 
+         
         }
+         }
 }
    
 }
