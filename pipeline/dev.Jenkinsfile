@@ -3,7 +3,13 @@ pipeline {
     options {
     skipDefaultCheckout(true)
 }
+
     stages {
+
+    stage('However I want to name a stage') {
+        steps {
+            checkout scm
+            }
         // stage('Clone sources') {
         //     steps {
                 
