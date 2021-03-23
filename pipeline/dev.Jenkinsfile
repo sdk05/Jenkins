@@ -2,8 +2,7 @@ pipeline {
     agent any
     options {
     skipDefaultCheckout(true)
-}
-
+     }
     stages {
 
     stage('However I want to name a stage') {
